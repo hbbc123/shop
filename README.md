@@ -1,20 +1,30 @@
-#项目说明
+# 项目说明
 该文件是以ThinkPHP框架为基础 写的一套商城接口  以供学习使用
+
 
 # 项目目录
 filter  为文件目录
+
 tps 接口文件  
+
 serve WebSocket 服务器
 
-#接口使用方式
+
+
+# 接口使用方式
 1.下载Apache服务器 把文件放在服务器运行目录里 通过 (自己定义的IP或域名)/tps/public/index.php  访问接口
+
 2.通过宝塔面板创建网站 把文件放在网站目录里
+
 3.导入shop.sql到数据库
+
 4.修改 tps\config\database.php 设置数据库参数
 
 # WebSocket 服务器启动方式
 1.使用Linux系统 文件存放路径与tps相同 通过命令 php serve.php 启动服务
+
 2.导入shop.sql到数据库(不用重复导入)
+
 3.修改 serve\config\database.php 设置数据库参数
 
 # 接口名称:获取大频道分类
